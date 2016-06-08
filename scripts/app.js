@@ -1,4 +1,8 @@
 $(document).ready(function() {
-  Materialize.updateTextFields();
-  $('input#input_text, textarea#textarea1').characterCounter();
+$(".button-collapse").sideNav();
+$('.parallax').parallax();
+
+$('.collapsible').collapsible({
+   accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+ });
 });
