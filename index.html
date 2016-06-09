@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="hide-on-med-and-up">
       <div class="nav-wrapper grey">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
@@ -29,24 +29,30 @@
           <li><a href="collapsible.html">Contact</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="sass.html">About</a></li>
-          <li><a href="badges.html">Profile</a></li>
-          <li><a href="collapsible.html">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <div class="parallax-container">
+    <div class="parallax-container caption valign-wrapper">
       <div class="parallax"><img src="http://canleyheightsrsl.com.au/wp-content/uploads/2013/12/placeholder.jpg"></div>
+      <div class="caption center-align">
+        <span><h3 class="valign">ADAM REID</h3>
+        <h5>Web Developer</h5></span>
+      </div>
     </div>
 
-   <div class="container">
-     <hr>
 
 
+
+    <br>
+    <br>
+    <br>
     <div class="row">
-      <div class="col s12">
-        <div class="card-panel teal">
+      <div id="about" class="col s12 z-depth-2">
+        <div class="">
           <h2>About me</h2>
           <span class="white-text">I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
@@ -54,13 +60,14 @@
         </div>
       </div>
     </div>
-    <hr>
+
     <br>
     <br>
     <br>
+    <div class="container">
     <!-- ////////////////////////////////////////Card 1////////////////////////////////////////////////// -->
 <div class="row">
-  <div class="col s12 m6 hide-on-med-and-up center-align">
+  <div id="profile" class="col s12 m6 hide-on-med-and-up center-align">
     <img class="responsive-img" src="styles/images/Bay-trails-mock-up.png" width="400" />
   </div>
   <div class="col s12 m6">
@@ -117,7 +124,7 @@
 <!-- ////////////////////////////////////////Card 3////////////////////////////////////////////////// -->
 <div class="row">
   <div class="col s12 m6 hide-on-med-and-up center-align">
-    <img class="responsive-img" src="styles/images/Bean-macbook-mockup.png" width="400" />
+    <img class="responsive-img" src="styles/images/bean-mockup.png" width="400" />
   </div>
   <div class="col s12 m6">
     <h4>Bean</h4>
@@ -137,46 +144,76 @@
     </ul>
   </div>
   <div class="col s12 m6 hide-on-small-only center-align">
-    <img class="responsive-img" src="styles/images/Bean-macbook-mockup.png" width="400" />
+    <img class="responsive-img" src="styles/images/bean-mockup.png" width="400" />
   </div>
 </div>
+</div><!-- End of Container /div -->
 <br>
 <br>
 <br>
 <!-- ////////////////////////////////////////////////////////////////////////////////////////// -->
-<hr>
-<div class="row">
-  <form class="card-panel col s12">
+
+<section class="skills-div z-depth-4">
+<div class="container">
+  <div class="section">
+
+    <!--   Icon Section   -->
     <div class="row">
-      <div class="input-field col s6">
-        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-        <label for="first_name">First Name</label>
+      <h3>Skills</h3>
+      <div class="col s12 m3">
+        <div class="card icon-block">
+
+          <h5 class="center">Languages</h5>
+
+          <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+        </div>
       </div>
-      <div class="input-field col s6">
-        <input id="last_name" type="text" class="validate">
-        <label for="last_name">Last Name</label>
+
+      <div class="col s12 m3">
+        <div class="card icon-block">
+
+          <h5 class="center">Frameworks</h5>
+
+          <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m3">
+        <div class="card icon-block">
+
+          <h5 class="center">Database Tools</h5>
+
+          <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+        </div>
+      </div>
+
+      <div class="col s12 m3">
+        <div class="card icon-block">
+
+          <h5 class="center">Other</h5>
+          <ul>
+            <li>
+              <p>MongoDB</p>
+            </li>
+            <li><p>
+              framework
+            </p></li>
+          </ul>
+
+        </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="input-field col s12">
-        <input id="password" type="password" class="validate">
-        <label for="password">Password</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s12">
-        <input id="email" type="email" class="validate">
-        <label for="email">Email</label>
-      </div>
-    </div>
-  </form>
+  </div>
+  <br>
+  <br>
 </div>
+</section>
 
-</div>
 
 
-    <!-- End of Container /div -->
-    </div>
+
+
+
   </body>
 </html>

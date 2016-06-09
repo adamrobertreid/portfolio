@@ -1,4 +1,22 @@
 
-.parallax-container {
-  height: 100vh;
+  .parallax-container {
+
+      height:100vh;
+    }
+
+
+#panel-skills {
+    padding: 10px;
+
+
+    height: 200px;
+}
+.skills-div{
+  width: 100%;
+  background-color: yellow;
+
+}
+#about{
+  width: 100%;
+  background-color: teal;
 }
