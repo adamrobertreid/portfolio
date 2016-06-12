@@ -1,26 +1,42 @@
-
-  .parallax-container {
-
-      height:100vh;
-    }
-
-
-#panel-skills {
-    padding: 10px;
-
-
-    height: 200px;
+.jumbtron {
+   height: 100vh;
+ }
+.header-name{
+  padding-top: 300px;
+  font-family: 'Poiret One', cursive;
+  color: #D73A31;
 }
+#name-header{
+  font-size: 70px;
+}
+.jumbtron{
+  color: #D0D3C5;
+  background-color: #08708A;
+}
+
 .skills-div{
   width: 100%;
-  background-color: yellow;
+  background-color: #D73A31;
+
 
 }
 #about{
   width: 100%;
-  background-color: teal;
+  background-color: #56B1BF;
+  height: 50vh;
 }
 .devicon-git-plain {
   padding: 10px 5px 2px 10px;
   max-width: 4em;
+}
+.nav-wrapper{
+  color: #D73A31;
+}
+
+.btn{
+  background-color: #D73A31;
+}
+
+#skills-box{
+  height: 200px;
 }
