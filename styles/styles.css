@@ -53,3 +53,7 @@ font-family: 'Poiret One', cursive;
 #port-header{
   font-family: 'Josefin Sans', sans-serif;
 }
+.git-plain {
+  max-width: 3em;
+  padding-bottom: 8px;
+}
